@@ -12,7 +12,8 @@ SRC_URI[sha256sum] = "4dba36dc72296105c8d91c908b6e8efed85b934028c7424bfdfec40121
 PV = "1.0+git${SRCPV}"
 # TODO: set to reference a specific commit hash in your assignment repo
 #SRCREV = "assignment-6-part1-complete"
-SRCREV = "09577a535267f30575835ce5b8ceec11dbf030f5"
+#SRCREV = "09577a535267f30575835ce5b8ceec11dbf030f5"
+SRCREV = "55ff468a594dd5d224db4809bff21f5e90ff379b"
 # TODO: Add the aesdsocket application and any other files you will install in do_install below
 # See https://github.com/openembedded/openembedded-core/blob/wrynose/meta/conf/bitbake.conf for path prefixes like ${bindir}
 # or ${sysconfdir}"
